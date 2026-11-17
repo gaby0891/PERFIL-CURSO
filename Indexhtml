@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>!</title>
+    <style>
+      :root {
+        --bg: #111827;
+        --panel: #1f2937;
+        --accent: #f59e0b;
+        --text: #f9fafb;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: radial-gradient(circle at top, #374151, var(--bg));
+        color: var(--text);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .card {
+        background: rgba(31, 41, 55, 0.9);
+        border: 1px solid rgba(245, 158, 11, 0.5);
+        border-radius: 18px;
+        padding: 2rem 2.5rem;
+        text-align: center;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+      }
+
+      .mark {
+        display: inline-grid;
+        place-items: center;
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background: var(--accent);
+        color: var(--bg);
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 1;
+        margin-bottom: 1rem;
+        animation: pulse 1.8s infinite ease-in-out;
+      }
+
+      h1 {
+        margin: 0 0 0.5rem;
+        font-size: 2rem;
+      }
+
+      p {
+        margin: 0;
+        color: #d1d5db;
+        letter-spacing: 0.04em;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          transform: scale(1);
+          box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.7);
+        }
+        50% {
+          transform: scale(1.08);
+          box-shadow: 0 0 0 18px rgba(245, 158, 11, 0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card" aria-label="Exclamation message">
+      <div class="mark">!</div>
+      <h1>Alert</h1>
+      <p>Something needs attention.</p>
+    </main>
+  </body>
+</html>
