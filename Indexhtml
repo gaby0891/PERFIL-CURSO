@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document gabriela escobar | portafolio</title>
-  </head>
-  <body>
-        <h1><em>nombre</em>gabriela escobar </h1> 
-        <h2>soy mama de una niña hermmosa y intelegente <strong>html</strong></h2>
-        <h2>mi meta es aprender mucho la programacion y la tecnologia</h2>
+    <title>Ada Gabriela Escobar Berganza</title>
+</head>
 
-  </body>
-  </html>
+<body>
+    <header>
+        <main>
+            <section id="sobre_mi">
+                <article>
+                    <h3>Sobre mi.</h3>
+                    <!--sobre mi-->
+                    <p>Hola, soy una persona que me gusta la musica <em>las computadoras</em> y la <strong>
+                            tecnologia</strong> me gusta el
+                        el mar y las montañas.</p>
+                </article>
+            </section>
+            <section id="cursos">
+                <article>
+                    <h3>Mis metas:</h3>
+                    <!--mis metas-->
+                    <p>-aprender THML y CSS para crear wed profesionalmente</p>
+                    <p>-aprender a programar y todo lo basico</p>
+                </article>
+            </section>
+            <section id="habilidades">seccion de habilidades</section>
+        </main>
+        <footer>&copy;2026 -Ada Gabriela Escobar Berganza, Santa Ana</footer>
+
+        <body>
+
+</html>
