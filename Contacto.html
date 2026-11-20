@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ada Gabriela Escobar Berganza</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Contacto.html">Enlaces</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>Esta es la pagina de contacto</p>
+        <a href="https://www.github.com" target="_blank">Ir a github</a>
+        <br>
+        <a href="https://www.linked.com" target="_blank">Ir a linked</a>
+        <hr>
+        <form action="/porcesar" method="post">
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+
+                <label for="nombre">Nombre:</label> <input type="text" id="nombre" name="nombre"
+                    placeholder="escriba su nombre completo" maxlength="40" required>
+                <label for="correo">Dirección de correo:</label>
+                <input type="email" name="correo" id="correo" required>
+
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
+                <label for="mensaje">Mensaje:</label>
+
+                <select name="asunto" id="asunto">
+
+                    <option value="1">Oferta de empleo</option>
+                    <option value="2">Solicitud de proyecto</option>
+                    <option value="3">Otros</option>
+                </select>
+
+                <label for="terminos">Acepto la politica de confidencialidad:</label>
+                <input type="checkbox" name="terminos" id="terminos" required>
+
+                <label for="mensaje">comentarios</label>
+                <input name="mensaje" id="mensaje" cols="30" rows="10" required>
+
+                <button type="submit">Enviar datos</button>
+                <button type="reset">limpiar formulario</button>
+            </fieldset>
+
+
+        </form>
+    </main>
+    <footer>&copy; 2026 - ada gabriel escobar berganza.</footer>
+
+
+
+</body>
+
+</html>
